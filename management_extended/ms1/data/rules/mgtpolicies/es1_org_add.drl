@@ -1,0 +1,64 @@
+global au.edu.swin.ict.road.common.IOrganiserRole orgMgt;
+global au.edu.swin.ict.road.common.IOperationalManagerRole oprMgt;
+global au.edu.swin.ict.road.common.DisabledRuleSet disabledSet;
+import au.edu.swin.ict.road.common.ManagementPolicyState;
+import au.edu.swin.ict.road.common.Classifier;
+
+rule "es1_org_stage1"
+  when
+  $mpsOrg : ManagementPolicyState(id =="es1_org", state=="incipient")
+   then
+   disabledSet.disable("es1_org_stage1");
+   System.out.println("Organizational management policy es1_org_stage1 has been started.");
+   $mpsOrg.setState("active");
+   orgMgt.addRole("MM","Member");
+   orgMgt.addTask("MM","RequestAssist",null,"SC-MM.assist.Req");
+   orgMgt.setTaskInMessage("MM","RequestAssist","requestAssist","String:memId,String:complain,String:pickUpLocation","String");
+   orgMgt.updateTask("MM","RequestAssist","add","mep","one-way");
+
+   orgMgt.addTask("MM","Notify", "SC-MM.assist.Res",null);
+   orgMgt.setTaskOutMessage("MM","Notify","requestAssist","String:memId,String:complain","String");
+   orgMgt.updateTask("MM","Notify","add","mep","notification");
+
+   orgMgt.addRole("SC","24bySupportCenter");
+   orgMgt.addTask("SC","Analyze","SC-MM.assist.Req","SC-MM.assist.Res");
+   orgMgt.setTaskInMessage("SC","Analyze","analyze","String:memId,String:complainDetails","AnalyzeReturn");
+   orgMgt.setTaskOutMessage("SC","Analyze","analyze","String:memId,String:complainDetails","AnalyzeReturn");
+   orgMgt.setServiceBinding("SC","http://localhost:8082/axis2/services/CaseOfficerService");
+
+   orgMgt.addContract("SC-MM","SC","MM");
+   orgMgt.addTerm("SC-MM","assist","BtoA");
+   orgMgt.setTermOperation("SC-MM","assist","assist","String:memId,String:complain","String");
+
+   orgMgt.addBehaviorUnit("CaseHandling");
+
+   orgMgt.addTaskToBehaviorUnit("CaseHandling","MM.RequestAssist",null,"eAssistReqd");
+   orgMgt.addTaskToBehaviorUnit("CaseHandling","SC.Analyze","eAssistReqd","eMMNotify");
+   orgMgt.addTaskToBehaviorUnit("CaseHandling","MM.Notify","eMMNotify",null);
+
+   orgMgt.addVSN("HappyTours");
+   orgMgt.addProcessToVSN("HappyTours","HappyToursP1","eAssistReqd","eMMNotify");
+   orgMgt.addBehaviorUnitToProcess("HappyTours","HappyToursP1","CaseHandling");
+   System.out.println("Organizational management policy es1_org_stage1 has been completed successfully.");
+   $mpsOrg.setState("stage1done");
+end
+
+rule "es1_org_stage2"
+  when
+   ( $mpsOrg : ManagementPolicyState(id =="es1_org", state=="stage1done") ) and  ( $mpsOpr :
+                                                                               ManagementPolicyState (id
+                                                                               =="es1_opr", state=="quiescence"))
+  then
+//    if(!disabledSet.contains("es1_org_stage2")){
+        disabledSet.disable("es1_org_stage2");
+        System.out.println("Organizational management policy es1_org_stage2 has been started.");
+        orgMgt.updateRole("MM","state","active");
+        orgMgt.updateRole("SC","state","active");
+        orgMgt.updateContract("SC-MM","state","active");
+        orgMgt.updateBehaviorUnit("CaseHandling","state","active");
+        orgMgt.updateProcessOfVSN("HappyTours","HappyToursP1","state", "active");
+        orgMgt.updateVSN("HappyTours","state", "active");
+        System.out.println("Organizational management policy es1_org_stage2 has been completed successfully.");
+        $mpsOrg.setState("quiescence");
+//    }
+ end
