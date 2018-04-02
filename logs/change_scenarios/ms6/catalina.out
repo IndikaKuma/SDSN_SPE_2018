@@ -1,0 +1,535 @@
+01-Apr-2018 21:37:20.572 SEVERE [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/temp]
+01-Apr-2018 21:37:20.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+01-Apr-2018 21:37:20.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+01-Apr-2018 21:37:20.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-116-generic
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/indika/speevol/apache-tomcat-9.0.6_sdsn/conf/logging.properties
+01-Apr-2018 21:37:20.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/indika/speevol/apache-tomcat-9.0.6_sdsn/temp
+01-Apr-2018 21:37:20.976 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+01-Apr-2018 21:37:21.078 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Apr-2018 21:37:21.087 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 21:37:21.092 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Apr-2018 21:37:21.095 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 21:37:21.096 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 525 ms
+01-Apr-2018 21:37:21.115 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Apr-2018 21:37:21.115 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+01-Apr-2018 21:37:21.131 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2.war]
+01-Apr-2018 21:37:26.077 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] Clustering has been disabled
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: soapmonitor-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/soapmonitor-1.7.7.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: script-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/scripting-1.7.7.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: mtompolicy-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/mtompolicy-1.7.7.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: metadataExchange-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/mex-1.7.7.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: ping-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/ping-1.7.7.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: ROADModule - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/roadmodule.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: jaxws-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.7.7.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying module: addressing-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/addressing-1.7.7.mar
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] No services directory was found under /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/conf/axis2.xml.
+[INFO] No modules directory was found under /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/conf/axis2.xml.
+[WARN] Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+[INFO] Deploying Web service: version-1.7.7.aar - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/services/version-1.7.7.aar
+01-Apr-2018 21:37:27.156 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2.war] has finished in [6,024] ms
+01-Apr-2018 21:37:27.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/ROOT]
+01-Apr-2018 21:37:27.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/ROOT] has finished in [10] ms
+01-Apr-2018 21:37:27.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/manager]
+01-Apr-2018 21:37:27.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/manager] has finished in [16] ms
+01-Apr-2018 21:37:27.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/docs]
+01-Apr-2018 21:37:27.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/docs] has finished in [7] ms
+01-Apr-2018 21:37:27.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/examples]
+01-Apr-2018 21:37:27.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/examples] has finished in [92] ms
+01-Apr-2018 21:37:27.284 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/host-manager]
+01-Apr-2018 21:37:27.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/host-manager] has finished in [10] ms
+01-Apr-2018 21:37:27.297 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Apr-2018 21:37:27.306 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Apr-2018 21:37:27.309 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6212 ms
+[INFO] [ROAD4WS] Deploying composite from the file : /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+[INFO] Loading SMC from /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+[INFO] Starting instantiation of /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+[INFO] Starting instantiation of /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+[INFO] Bench mark OFF
+[INFO] Reading KB from roadside_global.drl
+[WARN] Environment variable M2_HOME is not set
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] Discovered kie.conf url=jar:file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/lib/drools-beliefs-6.3.0.Final.jar!/META-INF/kie.conf 
+[INFO] Adding Assembler org.drools.beliefs.bayes.assembler.BayesAssemblerService 
+[INFO] Adding Weaver org.kie.internal.weaver.KieWeaversImpl 
+[INFO] Adding Runtime org.drools.beliefs.bayes.runtime.BayesRuntime 
+[INFO] KieModule was added: MemoryKieModule[releaseId=roadside_global.drl:road-rep:1.0.0]
+[INFO] Creating the synchronization engine
+[INFO] Instantiating the MPF
+[ERROR] serendip.properties file is missing. It should be in the same directory as the executable. e.g., if you are using TOMCAT+AXIS2 the file should be in TOMCAT_HOME/bin.
+[INFO] Reading KB from MM_SYN.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=MM_SYN.drl:road-rep:1.0.0]
+[INFO] Reading KB from MM_Routing.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=MM_Routing.drl:road-rep:1.0.0]
+[INFO] Adding role with id 'MM' to composite roadside
+[INFO] Reading KB from SC_SYN.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=SC_SYN.drl:road-rep:1.0.0]
+[INFO] Reading KB from SC_Routing.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=SC_Routing.drl:road-rep:1.0.0]
+[INFO] Adding role with id 'SC' to composite roadside
+[INFO] Reading KB from GC1_SYN.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1_SYN.drl:road-rep:1.0.0]
+[INFO] Reading KB from GC1_Routing.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1_Routing.drl:road-rep:1.0.0]
+[INFO] Adding role with id 'GC1' to composite roadside
+[INFO] Reading KB from FD_SYN.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=FD_SYN.drl:road-rep:1.0.0]
+[INFO] Reading KB from FD_Routing.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=FD_Routing.drl:road-rep:1.0.0]
+[INFO] Adding role with id 'FD' to composite roadside
+[INFO] Reading KB from TC2_SYN.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=TC2_SYN.drl:road-rep:1.0.0]
+[INFO] Reading KB from TC2_Routing.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=TC2_Routing.drl:road-rep:1.0.0]
+[INFO] Adding role with id 'TC2' to composite roadside
+[INFO] Reading KB from PS_SYN.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=PS_SYN.drl:road-rep:1.0.0]
+[INFO] Reading KB from PS_Routing.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=PS_Routing.drl:road-rep:1.0.0]
+[INFO] Adding role with id 'PS' to composite roadside
+[INFO] Reading KB from SC-MM.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=SC-MM.drl:road-rep:1.0.0]
+[INFO] Adding contract SC-MM to composite roadside
+[INFO] Reading KB from MM-FD.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=MM-FD.drl:road-rep:1.0.0]
+[INFO] Adding contract MM-FD to composite roadside
+[INFO] Reading KB from SC-TC2.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=SC-TC2.drl:road-rep:1.0.0]
+[INFO] Adding contract SC-TC2 to composite roadside
+[INFO] Reading KB from GC1-TC2.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1-TC2.drl:road-rep:1.0.0]
+[INFO] Adding contract GC1-TC2 to composite roadside
+[INFO] Reading KB from SC-GC1.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=SC-GC1.drl:road-rep:1.0.0]
+[INFO] Adding contract SC-GC1 to composite roadside
+[INFO] Reading KB from GC1-PS.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1-PS.drl:road-rep:1.0.0]
+[INFO] Adding contract GC1-PS to composite roadside
+[INFO] Reading KB from PS-SC.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=PS-SC.drl:road-rep:1.0.0]
+[INFO] Adding contract PS-SC to composite roadside
+[INFO] Deploying the regulation policy for the VSN : HappyTours as [ruAdmissionV1, ruCreateVsnInstance, ruDrop]
+[INFO] Deploying the process HappyToursP1 of the VSN : HappyTours
+[INFO] Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as [CaseHandling, Reimbursement, TowingByTomTow, RepairingByMacRepair, PartsSupplyByJack]
+[INFO] Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as [ruTerminateV1, ruActivateV1]
+[INFO] MM subscribed to the engine
+[INFO] SC subscribed to the engine
+[INFO] TC2 subscribed to the engine
+[INFO] PS subscribed to the engine
+[INFO] GC1 subscribed to the engine
+[INFO] FD subscribed to the engine
+[INFO] Deployment complete
+[INFO] Serendip adminview disabled. SERENDIP_SHOW_ADMIN_VIEWProperty not found.If you need to monitor processes set SERENDIP_SHOW_ADMIN_VIEW=TRUEin serendip.properties file
+[INFO] Finished instantiation of /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+[INFO] Composite is now running...
+[INFO] http://www.w3.org/ns/wsdl/in-out->setOrganizerBinding
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeVSN
+[INFO] http://www.w3.org/ns/wsdl/in-out->getName
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRole
+[INFO] http://www.w3.org/ns/wsdl/in-out->addVSN
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateTerm
+[INFO] http://www.w3.org/ns/wsdl/in-out->deployProcessConfigDesignAsXML
+[INFO] http://www.w3.org/ns/wsdl/in-out->setServiceBinding
+[INFO] http://www.w3.org/ns/wsdl/in-out->setTermOperation
+[INFO] http://www.w3.org/ns/wsdl/in-out->replaceBehaviorUnitOfProcess
+[INFO] http://www.w3.org/ns/wsdl/in-out->enactOrganizationalManagementPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->addTask
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeTaskFromBehaviorUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addTaskToBehaviorUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeTask
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateTaskOfBehaviorUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateVSN
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeProcessFromVSN
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeBehaviorUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addProcessToVSN
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeContract
+[INFO] http://www.w3.org/ns/wsdl/in-out->deployVSNAsXML
+[INFO] http://www.w3.org/ns/wsdl/in-out->setTaskInMessage
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRole
+[INFO] http://www.w3.org/ns/wsdl/in-out->getNextManagementMessageBlocking
+[INFO] http://www.w3.org/ns/wsdl/in-out->addTerm
+[INFO] http://www.w3.org/ns/wsdl/in-out->addBehaviorUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateContract
+[INFO] http://www.w3.org/ns/wsdl/in-out->addBehaviorUnitsToProcess
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeTerm
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateServiceBinding
+[INFO] http://www.w3.org/ns/wsdl/in-out->setTaskMessage
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeBehaviorUnitFromProcess
+[INFO] http://www.w3.org/ns/wsdl/in-out->addContract
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateTask
+[INFO] http://www.w3.org/ns/wsdl/in-out->deployProcessAsXML
+[INFO] http://www.w3.org/ns/wsdl/in-out->setTaskOutMessage
+[INFO] http://www.w3.org/ns/wsdl/in-out->setTaskQoS
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateProcessOfVSN
+[INFO] http://www.w3.org/ns/wsdl/in-out->addBehaviorUnitToProcess
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateBehaviorUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->enactOrganizationalManagementPolicyRemote
+[INFO] http://www.w3.org/ns/wsdl/in-out->getNextManagementMessage
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRole
+[INFO] http://www.w3.org/ns/wsdl/in-out->subscribeToManagementMessages
+[INFO] Organizer role added to composite roadside
+[INFO] http://www.w3.org/ns/wsdl/in-out->addPassthroughRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitsOfProcessRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRoutingRulesFromRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToInterVSNRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeGlobalRulesFromInterVSNRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->enactOperationalManagementPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addPassthroughRegulationUnitToProcessRegulationPolicyAt
+[INFO] http://www.w3.org/ns/wsdl/in-out->addInterProcessRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->setOperationalManagerBinding
+[INFO] http://www.w3.org/ns/wsdl/in-out->removePassthroughRegulationUnitFromProcessRegulationPolicyAt
+[INFO] http://www.w3.org/ns/wsdl/in-out->enactOperationalManagementPolicyRemote
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToInterCollaborationRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToInterCollaborationRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkStateImplementation
+[INFO] http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToInterVSNRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->addSynchronizationRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRoutingRulesFromInterProcessRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addServiceNetworkStateImplementation
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRegulationUnitsToVSNRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkEvent
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRegulationMechanism
+[INFO] http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToInterProcessRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateSynchronizationRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeInterProcessRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRegulationUnitsToProcessRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeServiceNetworkState
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitsOfVSNRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRoutingRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->getNextManagementMessageBlocking
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateGlobalRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRegulationMechanism
+[INFO] http://www.w3.org/ns/wsdl/in-out->setInterVSNRegulation
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRegulationUnitsFromProcessRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeInterCollaborationRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToInterProcessRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToInterProcessRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToInterProcessRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removePassthroughRulesFromRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addGlobalRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToInterCollaborationRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removePassthroughRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->addServiceNetworkState
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRoutingRulesFromInterVSNRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeSynchronizationRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeInterVSNRegulation
+[INFO] http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToInterCollaborationRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeServiceNetworkEvent
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeSynchronizationRulesFromRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRegulationMechanism
+[INFO] http://www.w3.org/ns/wsdl/in-out->addInterCollaborationRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRoutingRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkState
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeSynchronizationRegulationUnitFromProcessRegulationPolicyAt
+[INFO] http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeGlobalRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToInterVSNRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRegulationUnitsFromVSNRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitOfVSNRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->addSynchronizationRegulationUnitToProcessRegulationPolicyAt
+[INFO] http://www.w3.org/ns/wsdl/in-out->updatePassthroughRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeGlobalRulesFromRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRoutingRegulationUnitToProcessRegulationPolicyAt
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeServiceNetworkStateImplementation
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeRoutingRegulationUnitFromProcessRegulationPolicyAt
+[INFO] http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToInterVSNRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitOfProcessRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->removeGlobalRulesFromInterCollaborationRegulationUnit
+[INFO] http://www.w3.org/ns/wsdl/in-out->addServiceNetworkEvent
+[INFO] http://www.w3.org/ns/wsdl/in-out->getNextManagementMessage
+[INFO] http://www.w3.org/ns/wsdl/in-out->addRoutingRule
+[INFO] http://www.w3.org/ns/wsdl/in-out->addParameterizedRegulationUnitToVSNRegulationPolicy
+[INFO] http://www.w3.org/ns/wsdl/in-out->subscribeToManagementMessages
+[INFO] Operational Manager role added to composite roadside
+[INFO] Adding composite to the axis config roadside
+[INFO] 5031
+[INFO] [ROAD4WS] Deploying management policies from the file : /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms6mgt.xml
+[INFO] Loading VSNs conf from /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms6mgt.xml
+[INFO] Got a management policy to admit 
+es6_org_add.drl
+[INFO] Got a management policyto admit 
+es6_opr_add.drl
+[INFO] Reading KB from es6_org_add.drl
+[INFO] Reading KB from es6_opr_add.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=es6_opr_add.drl:road-rep:1.0.0]
+[INFO] KieModule was added: MemoryKieModule[releaseId=es6_org_add.drl:road-rep:1.0.0]
+[INFO] Management policy applied in .427113004nanoseconds
+[INFO] Management policy applied in .430065931nanoseconds
+[INFO] 1522611907782
+Organizational management policy es6_org_stage1 has been started.
+[INFO] Organiser: addRole, roleId: AS
+[INFO] AS subscribed to the engine
+[INFO] Adding role with id 'AS' to composite roadside
+[INFO] New role AS added successfully
+[INFO] Added a Task : AssessRepair
+[INFO] Organiser: setInMessageType
+[INFO] Updated the in message : AssessRepair
+[INFO] Organiser: setOutMessageType
+[INFO] Updated the out message : AssessRepair
+[INFO] New PlayerBinding AS_SB added successfully
+[INFO] SetServiceBinding AS_SB successful for the role AS
+[INFO] Added a Task : ReceiveExternalAssessment
+[INFO] Organiser: setInMessageType
+[INFO] Updated the in message : ReceiveExternalAssessment
+[INFO] Organiser: setOutMessageType
+[INFO] Updated the out message : ReceiveExternalAssessment
+[INFO] Added a Task : PayAS
+[INFO] Organiser: setInMessageType
+[INFO] Updated the in message : PayAS
+[INFO] Organiser: setOutMessageType
+[INFO] Updated the out message : PayAS
+[INFO] Updated the task : AssessRepair of the role :GC1
+[INFO] Updated the task : AssessRepair of the role :GC1
+[INFO] Organiser: addNewContract, contractId: AS-SC
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] Adding contract AS-SC to composite roadside
+[INFO] Contract AS-SC was successfully added
+[INFO] Organiser: addwTerm, contractId: AS-SC
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] New term with id 'payRepairAssessment' has been added to the contract with the id 'AS-SC'
+[INFO] Term payRepairAssessment was successfully added
+[INFO] Organiser: addNewOperation
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] Operation successfully added
+[INFO] Organiser: addNewContract, contractId: GC1-AS
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] Adding contract GC1-AS to composite roadside
+[INFO] Contract GC1-AS was successfully added
+[INFO] Organiser: addwTerm, contractId: GC1-AS
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] New term with id 'orderRepairAssessment' has been added to the contract with the id 'GC1-AS'
+[INFO] Term orderRepairAssessment was successfully added
+[INFO] Organiser: addNewOperation
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] Operation successfully added
+[INFO]  Task updated from GC1.DoRepair behavior RepairingByMacRepair
+[INFO]  Task updated from GC1.AssessRepair behavior RepairingByMacRepair
+[INFO] BehaviorUnit VehicleAssessment has been added
+[INFO] Task ref  AS.AssessRepair added to VehicleAssessment
+[INFO] Task ref  GC1.ReceiveExternalAssessment added to VehicleAssessment
+[INFO] Task ref  SC.PayAS added to VehicleAssessment
+[INFO] Organiser: add a behavior unit VehicleAssessment to the configuration design of the process : HappyToursP1
+[INFO] Configuration design for the process  HappyToursP1 hss been updated with behavior unit : VehicleAssessment
+Organizational management policy es6_org_stage1 has been completed successfully.
+Operational management policy es6_opr_stage1 has been started.
+[INFO] Operational Manager : add sync regulation rule @ AS
+[INFO] Reading KB from AS_SYN.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=AS_SYN.drl:road-rep:1.0.0]
+[INFO] The sync regulation rule @AShas been added.
+[INFO] Operational Manager : add sync regulation rule @ GC1
+[INFO] Reading KB from GC1_SYN_Diff.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1_SYN_Diff.drl:road-rep:1.0.0]
+[INFO] The sync regulation rule @GC1has been added.
+[INFO] Operational Manager : add sync regulation rule @ SC
+[INFO] Reading KB from SC_SYN_Diff.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=SC_SYN_Diff.drl:road-rep:1.0.0]
+[INFO] The sync regulation rule @SChas been added.
+[INFO] Operational Manager : add routing regulation rule @ AS
+[INFO] Reading KB from AS_Routing.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=AS_Routing.drl:road-rep:1.0.0]
+[INFO] The routing regulation rule @AShas been added.
+[INFO] Operational Manager : add routing regulation rule @ GC1
+[INFO] Reading KB from GC1_Routing_Diff.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1_Routing_Diff.drl:road-rep:1.0.0]
+[INFO] The routing regulation rule @GC1has been added.
+[INFO] Operational Manager : update routing rule : assessRepairResponse
+[INFO] Reading KB from GC1_Routing_Diff_Replace.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1_Routing_Diff_Replace.drl:road-rep:1.0.0]
+[INFO] The routing regulation ruleassessRepairResponsehas been updated.
+[INFO] Operational Manager : add routing regulation rule @ SC
+[INFO] Reading KB from SC_Routing_Diff.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=SC_Routing_Diff.drl:road-rep:1.0.0]
+[INFO] The routing regulation rule @SChas been added.
+[INFO] Operational Manager : add passthrough regulation rule @ AS-SC
+[INFO] Reading KB from AS-SC.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=AS-SC.drl:road-rep:1.0.0]
+[INFO] The passthrough regulation rule @AS-SChas been added.
+[INFO] Operational Manager : add passthrough regulation rule @ GC1-AS
+[INFO] Reading KB from GC1-AS.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=GC1-AS.drl:road-rep:1.0.0]
+[INFO] The passthrough regulation rule @GC1-AShas been added.
+[INFO] Operational Manager : add regulation unit : VehicleAssessment
+[INFO] The regulation unit VehicleAssessmenthas been added.
+[INFO] Operational Manager : add  sync rules to the regulation unit : VehicleAssessment
+[INFO] The sync rules to the regulation unit VehicleAssessmenthave been added.
+[INFO] Operational Manager : add routing rules to the regulation unit : VehicleAssessment
+[INFO] The routing rules to the regulation unit VehicleAssessmenthave been added.
+[INFO] Operational Manager : add passthrough rules to the regulation unit : VehicleAssessment
+[INFO] The passthrough rules to the regulation unit VehicleAssessmenthave been added.
+[INFO] Operational Manager : add regulation units VehicleAssessment to the process : HappyToursP1
+[INFO] Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as []
+[INFO] Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as [VehicleAssessment]
+[INFO] The regulation units to the process HappyToursP1have been added.
+[INFO] Operational Manager : remove regulation unit : VehicleAssessment
+[INFO] The regulation unit VehicleAssessmenthas been removed.
+[INFO] Operational Manager : update regulation units VehicleAssessment of the process : HappyToursP1 property : state value : active
+[INFO] The regulation unit of the process HappyToursP1have been updated. property : state value : active
+Operational management policy es6_opr_stage1 has been completed successfully.
+Organizational management policy es6_org_stage2 has been started.
+[INFO] Organiser: updateRole, roleId: AS
+[INFO] Property stateof RoleAS was successfully updated with value active
+[INFO] Organiser: update contract , contractId: GC1-AS
+[INFO] Organiser: update contract , contractId: AS-SC
+[INFO] Update property state of BehaviorUnitVehicleAssessment is done
+Organizational management policy es6_org_stage2 has been completed successfully.
+[INFO] 1522611909034
+[INFO] [ROAD4WS] Deploying management policies from the file : /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms6mgtremove.xml
+[INFO] Loading VSNs conf from /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms6mgtremove.xml
+[INFO] Got a management policy to admit 
+es6_org_remove.drl
+[INFO] Reading KB from es6_org_remove.drl
+[INFO] Got a management policyto admit 
+es6_opr_remove.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] Reading KB from es6_opr_remove.drl
+[INFO] Not in OSGi: using plexus based maven parser
+[INFO] KieModule was added: MemoryKieModule[releaseId=es6_org_remove.drl:road-rep:1.0.0]
+[INFO] KieModule was added: MemoryKieModule[releaseId=es6_opr_remove.drl:road-rep:1.0.0]
+[INFO] Management policy applied in .216652073nanoseconds
+[INFO] Management policy applied in .214907773nanoseconds
+[INFO] 1522611957388
+Operational management policy es6_opr_remove_stage1 has been started.
+[INFO] Operational Manager : update regulation units VehicleAssessment of the process : HappyToursP1 property : state value : passive
+Organizational management policy es6_org_remove_stage1 has been started.
+[INFO] Organiser: updateRole, roleId: AS
+[INFO] Property stateof RoleAS was successfully updated with value passive
+[INFO] Organiser: update contract , contractId: GC1-AS
+[INFO] Organiser: update contract , contractId: AS-SC
+[INFO] Update property state of BehaviorUnitVehicleAssessment is done
+[INFO] Organiser: remove a behavior unit VehicleAssessment from the configuration design of the process : HappyToursP1
+[INFO] Configuration design for the process  HappyToursP1 hss been updated by removing the behavior unit : VehicleAssessment
+[INFO]  Task removed from AS.AssessRepair behavior VehicleAssessment
+[INFO]  Task removed from GC1.ReceiveExternalAssessment behavior VehicleAssessment
+[INFO]  Task removed from SC.PayAS behavior VehicleAssessment
+[INFO]  Behavior removed VehicleAssessment
+[INFO] Organiser: removeTerm, termId: payRepairAssessment
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] The term with the id 'payRepairAssessment' has been removed from the contract with the id 'AS-SC'.
+[INFO] Term payRepairAssessment was successfully removed
+[INFO] Organiser: removeContract, contractId: AS-SC
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] Contract with the id 'AS-SC' has been removed from the composite
+[INFO] Contract with the id 'AS-SC' was not removed as it could not be found
+[INFO] Contract with the id 'AS-SC' has been removed from thcomposite
+[INFO] Organiser: removeTerm, termId: orderRepairAssessment
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] The term with the id 'orderRepairAssessment' has been removed from the contract with the id 'GC1-AS'.
+[INFO] Term orderRepairAssessment was successfully removed
+[INFO] Organiser: removeContract, contractId: GC1-AS
+[INFO] Service removed from Axis2
+[INFO] Service removed from Axis2
+[INFO] Contract with the id 'GC1-AS' has been removed from the composite
+[INFO] Contract with the id 'GC1-AS' was not removed as it could not be found
+[INFO] Contract with the id 'GC1-AS' has been removed from thcomposite
+[INFO]  Task removed from AssessRepair role AS
+[INFO] Organiser: remove, roleId: AS
+[INFO] Role with id 'AS' has been removed from this composite.
+[INFO] Service removed from Axis2
+[INFO] RoleAS has been sucessfully removed
+[INFO]  Task removed from ReceiveExternalAssessment role GC1
+[INFO]  Task removed from PayAS role SC
+[INFO] Updated the task : AssessRepair of the role :GC1
+[INFO] Updated the task : AssessRepair of the role :GC1
+[INFO]  Task updated from GC1.DoRepair behavior RepairingByMacRepair
+[INFO]  Task updated from GC1.AssessRepair behavior RepairingByMacRepair
+Organizational management policy es6_org_remove_stage1 has been completed successfully.
+[INFO] 1522611957416
+Exception executing consequence for rule "es6_opr_remove_stage1" in defaultpkg: java.lang.NullPointerException
+	at org.drools.core.runtime.rule.impl.DefaultConsequenceExceptionHandler.handleException(DefaultConsequenceExceptionHandler.java:39)
+	at org.drools.core.common.DefaultAgenda.fireActivation(DefaultAgenda.java:1083)
+	at org.drools.core.phreak.RuleExecutor.fire(RuleExecutor.java:121)
+	at org.drools.core.phreak.RuleExecutor.evaluateNetworkAndFire(RuleExecutor.java:74)
+	at org.drools.core.common.DefaultAgenda.fireNextItem(DefaultAgenda.java:978)
+	at org.drools.core.common.DefaultAgenda.fireAllRules(DefaultAgenda.java:1292)
+	at org.drools.core.impl.StatefulKnowledgeSessionImpl.internalFireAllRules(StatefulKnowledgeSessionImpl.java:1294)
+	at org.drools.core.impl.StatefulKnowledgeSessionImpl.fireAllRules(StatefulKnowledgeSessionImpl.java:1281)
+	at org.drools.core.impl.StatefulKnowledgeSessionImpl.fireAllRules(StatefulKnowledgeSessionImpl.java:1270)
+	at org.drools.core.command.runtime.rule.FireAllRulesCommand.execute(FireAllRulesCommand.java:107)
+	at org.drools.core.command.runtime.rule.FireAllRulesCommand.execute(FireAllRulesCommand.java:34)
+	at org.drools.core.command.runtime.BatchExecutionCommandImpl.execute(BatchExecutionCommandImpl.java:153)
+	at org.drools.core.command.runtime.BatchExecutionCommandImpl.execute(BatchExecutionCommandImpl.java:69)
+	at org.drools.core.impl.StatelessKnowledgeSessionImpl.execute(StatelessKnowledgeSessionImpl.java:292)
+	at au.edu.swin.ict.road.common.DroolsManagementRules.insertEvent(DroolsManagementRules.java:42)
+	at au.edu.swin.ict.road.common.PolicyExecutionCommand.run(PolicyExecutionCommand.java:18)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at au.edu.swin.ict.road.composite.Composite.passivateRegulationUnitForProcess(Composite.java:1126)
+	at au.edu.swin.ict.road.composite.OperationalManagerRole.updateRegulationUnitOfProcessRegulationPolicy(OperationalManagerRole.java:1209)
+	at defaultpkg.Rule_es6_opr_remove_stage138062390.defaultConsequence(Rule_es6_opr_remove_stage138062390.java:11)
+	at defaultpkg.Rule_es6_opr_remove_stage138062390DefaultConsequenceInvokerGenerated.evaluate(Unknown Source)
+	at defaultpkg.Rule_es6_opr_remove_stage138062390DefaultConsequenceInvoker.evaluate(Unknown Source)
+	at org.drools.core.common.DefaultAgenda.fireActivation(DefaultAgenda.java:1072)
+	... 17 more

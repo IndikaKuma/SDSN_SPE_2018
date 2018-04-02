@@ -1,0 +1,47 @@
+01-Apr-2018 14:36:30.374 SEVERE [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/temp]
+01-Apr-2018 14:36:30.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+01-Apr-2018 14:36:30.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+01-Apr-2018 14:36:30.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+01-Apr-2018 14:36:30.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+01-Apr-2018 14:36:30.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-116-generic
+01-Apr-2018 14:36:30.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Apr-2018 14:36:30.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+01-Apr-2018 14:36:30.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+01-Apr-2018 14:36:30.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Apr-2018 14:36:30.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 14:36:30.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/indika/speevol/apache-tomcat-9.0.6_sdsn/conf/logging.properties
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Apr-2018 14:36:30.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 14:36:30.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/indika/speevol/apache-tomcat-9.0.6_sdsn
+01-Apr-2018 14:36:30.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/indika/speevol/apache-tomcat-9.0.6_sdsn/temp
+01-Apr-2018 14:36:30.744 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+01-Apr-2018 14:36:30.870 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Apr-2018 14:36:30.879 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 14:36:30.885 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Apr-2018 14:36:30.888 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Apr-2018 14:36:30.889 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 516 ms
+01-Apr-2018 14:36:30.927 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Apr-2018 14:36:30.927 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+01-Apr-2018 14:36:30.956 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2.war]
+01-Apr-2018 14:36:35.373 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 5646
+01-Apr-2018 14:36:41.903 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2.war] has finished in [10,947] ms
+01-Apr-2018 14:36:41.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/ROOT]
+01-Apr-2018 14:36:41.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/ROOT] has finished in [9] ms
+01-Apr-2018 14:36:41.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/manager]
+01-Apr-2018 14:36:41.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/manager] has finished in [14] ms
+01-Apr-2018 14:36:41.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/docs]
+01-Apr-2018 14:36:41.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/docs] has finished in [6] ms
+01-Apr-2018 14:36:41.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/examples]
+01-Apr-2018 14:36:42.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/examples] has finished in [76] ms
+01-Apr-2018 14:36:42.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/host-manager]
+01-Apr-2018 14:36:42.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/host-manager] has finished in [8] ms
+01-Apr-2018 14:36:42.019 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Apr-2018 14:36:42.025 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Apr-2018 14:36:42.027 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 11137 ms

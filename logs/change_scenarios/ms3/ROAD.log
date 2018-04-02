@@ -1,0 +1,471 @@
+2018-04-01 23:21:52,218 [main] INFO  org.apache.axis2.deployment.ClusterBuilder  - Clustering has been disabled
+2018-04-01 23:21:52,284 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,305 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: soapmonitor-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/soapmonitor-1.7.7.mar
+2018-04-01 23:21:52,305 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,309 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: script-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/scripting-1.7.7.mar
+2018-04-01 23:21:52,309 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,313 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: mtompolicy-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/mtompolicy-1.7.7.mar
+2018-04-01 23:21:52,314 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,323 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: metadataExchange-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/mex-1.7.7.mar
+2018-04-01 23:21:52,324 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,327 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: ping-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/ping-1.7.7.mar
+2018-04-01 23:21:52,327 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,330 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: ROADModule - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/roadmodule.mar
+2018-04-01 23:21:52,330 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,333 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: jaxws-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/axis2-jaxws-mar-1.7.7.mar
+2018-04-01 23:21:52,334 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,343 [main] INFO  org.apache.axis2.deployment.ModuleDeployer  - Deploying module: addressing-1.7.7 - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/modules/addressing-1.7.7.mar
+2018-04-01 23:21:52,361 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,381 [main] INFO  org.apache.axis2.deployment.DeploymentEngine  - No services directory was found under /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/conf/axis2.xml.
+2018-04-01 23:21:52,381 [main] INFO  org.apache.axis2.deployment.DeploymentEngine  - No modules directory was found under /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/conf/axis2.xml.
+2018-04-01 23:21:52,404 [main] WARN  org.apache.axis2.deployment.util.Utils  - Exception extracting jars into temporary directory : java.io.IOException: No such file or directory : switching to alternate class loading mechanism
+2018-04-01 23:21:52,461 [main] INFO  org.apache.axis2.deployment.DeploymentEngine  - Deploying Web service: version-1.7.7.aar - file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/services/version-1.7.7.aar
+2018-04-01 23:21:52,461 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - [ROAD4WS] Deploying composite from the file : /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+2018-04-01 23:21:52,462 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Loading SMC from /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+2018-04-01 23:21:52,462 [main] INFO  au.edu.swin.ict.road.demarshalling.CompositeDemarshaller  - Starting instantiation of /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+2018-04-01 23:21:52,966 [main] INFO  au.edu.swin.ict.road.demarshalling.CompositeDemarshaller  - Starting instantiation of /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+2018-04-01 23:21:52,979 [main] INFO  au.edu.swin.ict.serendip.util.BenchUtil  - Bench mark OFF
+2018-04-01 23:21:52,982 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from roadside_global.drl
+2018-04-01 23:21:53,033 [main] WARN  org.kie.scanner.embedder.MavenSettings  - Environment variable M2_HOME is not set
+2018-04-01 23:21:53,062 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:54,203 [main] INFO  org.kie.internal.utils.ServiceDiscovery  - Discovered kie.conf url=jar:file:/home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/lib/drools-beliefs-6.3.0.Final.jar!/META-INF/kie.conf 
+2018-04-01 23:21:54,251 [main] INFO  org.kie.internal.utils.ServiceDiscovery  - Adding Assembler org.drools.beliefs.bayes.assembler.BayesAssemblerService 
+2018-04-01 23:21:54,251 [main] INFO  org.kie.internal.utils.ServiceDiscovery  - Adding Weaver org.kie.internal.weaver.KieWeaversImpl 
+2018-04-01 23:21:54,251 [main] INFO  org.kie.internal.utils.ServiceDiscovery  - Adding Runtime org.drools.beliefs.bayes.runtime.BayesRuntime 
+2018-04-01 23:21:55,080 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=roadside_global.drl:road-rep:1.0.0]
+2018-04-01 23:21:55,209 [main] INFO  au.edu.swin.ict.serendip.core.SerendipEngine  - Creating the synchronization engine
+2018-04-01 23:21:55,211 [main] INFO  au.edu.swin.ict.serendip.core.ModelProviderFactory  - Instantiating the MPF
+2018-04-01 23:21:55,211 [main] ERROR au.edu.swin.ict.serendip.core.ModelProviderFactory  - serendip.properties file is missing. It should be in the same directory as the executable. e.g., if you are using TOMCAT+AXIS2 the file should be in TOMCAT_HOME/bin.
+2018-04-01 23:21:55,223 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from MM_SYN.drl
+2018-04-01 23:21:55,223 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:55,324 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=MM_SYN.drl:road-rep:1.0.0]
+2018-04-01 23:21:55,326 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from MM_Routing.drl
+2018-04-01 23:21:55,327 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:55,639 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=MM_Routing.drl:road-rep:1.0.0]
+2018-04-01 23:21:55,653 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Adding role with id 'MM' to composite roadside
+2018-04-01 23:21:55,656 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC_SYN.drl
+2018-04-01 23:21:55,657 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:55,771 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC_SYN.drl:road-rep:1.0.0]
+2018-04-01 23:21:55,775 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC_Routing.drl
+2018-04-01 23:21:55,787 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:55,925 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC_Routing.drl:road-rep:1.0.0]
+2018-04-01 23:21:55,929 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Adding role with id 'SC' to composite roadside
+2018-04-01 23:21:55,929 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from FD_SYN.drl
+2018-04-01 23:21:55,930 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:56,023 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=FD_SYN.drl:road-rep:1.0.0]
+2018-04-01 23:21:56,027 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from FD_Routing.drl
+2018-04-01 23:21:56,027 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:56,146 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=FD_Routing.drl:road-rep:1.0.0]
+2018-04-01 23:21:56,148 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Adding role with id 'FD' to composite roadside
+2018-04-01 23:21:56,151 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC-MM.drl
+2018-04-01 23:21:56,151 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:56,226 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC-MM.drl:road-rep:1.0.0]
+2018-04-01 23:21:56,231 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Adding contract SC-MM to composite roadside
+2018-04-01 23:21:56,231 [main] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from MM-FD.drl
+2018-04-01 23:21:56,231 [main] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:21:56,305 [main] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=MM-FD.drl:road-rep:1.0.0]
+2018-04-01 23:21:56,308 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Adding contract MM-FD to composite roadside
+2018-04-01 23:21:56,311 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Deploying the regulation policy for the VSN : HappyTours as [ruAdmissionV1, ruCreateVsnInstance, ruDrop]
+2018-04-01 23:21:56,311 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Deploying the process HappyToursP1 of the VSN : HappyTours
+2018-04-01 23:21:56,312 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as [CaseHandling, Reimbursement]
+2018-04-01 23:21:56,312 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as [ruTerminateV1, ruActivateV1]
+2018-04-01 23:21:56,312 [main] INFO  au.edu.swin.ict.serendip.core.SerendipEngine  - MM subscribed to the engine
+2018-04-01 23:21:56,313 [main] INFO  au.edu.swin.ict.serendip.core.SerendipEngine  - SC subscribed to the engine
+2018-04-01 23:21:56,313 [main] INFO  au.edu.swin.ict.serendip.core.SerendipEngine  - FD subscribed to the engine
+2018-04-01 23:21:56,313 [main] INFO  au.edu.swin.ict.road.composite.Composite  - Deployment complete
+2018-04-01 23:21:56,313 [main] INFO  au.edu.swin.ict.road.demarshalling.CompositeDemarshaller  - Serendip adminview disabled. SERENDIP_SHOW_ADMIN_VIEWProperty not found.If you need to monitor processes set SERENDIP_SHOW_ADMIN_VIEW=TRUEin serendip.properties file
+2018-04-01 23:21:56,313 [main] INFO  au.edu.swin.ict.road.demarshalling.CompositeDemarshaller  - Finished instantiation of /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_composites/smc_source.xml
+2018-04-01 23:21:56,313 [Thread-9] INFO  au.edu.swin.ict.road.composite.Composite  - Composite is now running...
+2018-04-01 23:21:56,329 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->setOrganizerBinding
+2018-04-01 23:21:56,331 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeVSN
+2018-04-01 23:21:56,331 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->getName
+2018-04-01 23:21:56,331 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRole
+2018-04-01 23:21:56,331 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addVSN
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateTerm
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->deployProcessConfigDesignAsXML
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->setServiceBinding
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->setTermOperation
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->replaceBehaviorUnitOfProcess
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->enactOrganizationalManagementPolicy
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addTask
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeTaskFromBehaviorUnit
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addTaskToBehaviorUnit
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeTask
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateTaskOfBehaviorUnit
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateVSN
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeProcessFromVSN
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeBehaviorUnit
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addProcessToVSN
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeContract
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->deployVSNAsXML
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->setTaskInMessage
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRole
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->getNextManagementMessageBlocking
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addTerm
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addBehaviorUnit
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateContract
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addBehaviorUnitsToProcess
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeTerm
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateServiceBinding
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->setTaskMessage
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeBehaviorUnitFromProcess
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addContract
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateTask
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->deployProcessAsXML
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->setTaskOutMessage
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->setTaskQoS
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateProcessOfVSN
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addBehaviorUnitToProcess
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateBehaviorUnit
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->enactOrganizationalManagementPolicyRemote
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->getNextManagementMessage
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRole
+2018-04-01 23:21:56,332 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - http://www.w3.org/ns/wsdl/in-out->subscribeToManagementMessages
+2018-04-01 23:21:56,335 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OrganizerDeployer  - Organizer role added to composite roadside
+2018-04-01 23:21:56,380 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addPassthroughRule
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitsOfProcessRegulationPolicy
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRoutingRulesFromRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToInterVSNRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeGlobalRulesFromInterVSNRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->enactOperationalManagementPolicy
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addPassthroughRegulationUnitToProcessRegulationPolicyAt
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addInterProcessRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->setOperationalManagerBinding
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removePassthroughRegulationUnitFromProcessRegulationPolicyAt
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->enactOperationalManagementPolicyRemote
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToInterCollaborationRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToInterCollaborationRegulationUnit
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkStateImplementation
+2018-04-01 23:21:56,381 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToInterVSNRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkRegulationPolicy
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addSynchronizationRule
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRoutingRulesFromInterProcessRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addServiceNetworkStateImplementation
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRegulationUnitsToVSNRegulationPolicy
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkEvent
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRegulationMechanism
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRoutingRulesToInterProcessRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateSynchronizationRule
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeInterProcessRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRegulationUnitsToProcessRegulationPolicy
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeServiceNetworkState
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitsOfVSNRegulationPolicy
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRoutingRule
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->getNextManagementMessageBlocking
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateGlobalRule
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRegulationMechanism
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->setInterVSNRegulation
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRegulationUnitsFromProcessRegulationPolicy
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeInterCollaborationRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToInterProcessRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToInterProcessRegulationUnit
+2018-04-01 23:21:56,382 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToInterProcessRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removePassthroughRulesFromRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addGlobalRule
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToInterCollaborationRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removePassthroughRule
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addServiceNetworkState
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRoutingRulesFromInterVSNRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeSynchronizationRule
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeInterVSNRegulation
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToInterCollaborationRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeServiceNetworkEvent
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeSynchronizationRulesFromRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRegulationMechanism
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addInterCollaborationRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRoutingRule
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateServiceNetworkState
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeSynchronizationRegulationUnitFromProcessRegulationPolicyAt
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addGlobalRulesToRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeGlobalRule
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addSynchronizationRulesToInterVSNRegulationUnit
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRegulationUnitsFromVSNRegulationPolicy
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitOfVSNRegulationPolicy
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addSynchronizationRegulationUnitToProcessRegulationPolicyAt
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updatePassthroughRule
+2018-04-01 23:21:56,383 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRegulationUnit
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeGlobalRulesFromRegulationUnit
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRoutingRegulationUnitToProcessRegulationPolicyAt
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeServiceNetworkStateImplementation
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeRoutingRegulationUnitFromProcessRegulationPolicyAt
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addPassthroughRulesToInterVSNRegulationUnit
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->updateRegulationUnitOfProcessRegulationPolicy
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->removeGlobalRulesFromInterCollaborationRegulationUnit
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addServiceNetworkEvent
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->getNextManagementMessage
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addRoutingRule
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->addParameterizedRegulationUnitToVSNRegulationPolicy
+2018-04-01 23:21:56,384 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - http://www.w3.org/ns/wsdl/in-out->subscribeToManagementMessages
+2018-04-01 23:21:56,390 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.OperationalManagerDeployer  - Operational Manager role added to composite roadside
+2018-04-01 23:21:56,390 [main] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Adding composite to the axis config roadside
+2018-04-01 23:21:56,397 [main] INFO  SN  - 3936
+2018-04-01 23:23:36,398 [Timer-3] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.MgtPolicyDeployer  - [ROAD4WS] Deploying management policies from the file : /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms3mgt.xml
+2018-04-01 23:23:36,399 [Timer-3] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.MgtPolicyDeployer  - Loading VSNs conf from /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms3mgt.xml
+2018-04-01 23:23:36,416 [Thread-13] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Got a management policy to admit 
+es3_org_add.drl
+2018-04-01 23:23:36,423 [Thread-14] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Got a management policyto admit 
+es3_opr_add.drl
+2018-04-01 23:23:36,426 [Thread-13] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from es3_org_add.drl
+2018-04-01 23:23:36,431 [Thread-14] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from es3_opr_add.drl
+2018-04-01 23:23:36,432 [Thread-14] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:36,432 [Thread-13] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:36,756 [Thread-14] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=es3_opr_add.drl:road-rep:1.0.0]
+2018-04-01 23:23:36,769 [Thread-14] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Management policy applied in .339606725nanoseconds
+2018-04-01 23:23:36,808 [Thread-13] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=es3_org_add.drl:road-rep:1.0.0]
+2018-04-01 23:23:36,819 [Thread-13] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Management policy applied in .400632962nanoseconds
+2018-04-01 23:23:37,001 [ManamentPolicyExecutorWorker-2] INFO  MGT  - 1522617817001
+2018-04-01 23:23:37,003 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addRole, roleId: TC2
+2018-04-01 23:23:37,003 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.serendip.core.SerendipEngine  - TC2 subscribed to the engine
+2018-04-01 23:23:37,004 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.Composite  - Adding role with id 'TC2' to composite roadside
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - New role TC2 added successfully
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Added a Task : Tow
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: setInMessageType
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the in message : Tow
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: setOutMessageType
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the out message : Tow
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - New PlayerBinding TC2_SB added successfully
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - SetServiceBinding TC2_SB successful for the role TC2
+2018-04-01 23:23:37,005 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Added a Task : PayTC
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: setInMessageType
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the in message : PayTC
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: setOutMessageType
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the out message : PayTC
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the task : Analyze of the role :SC
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the task : Analyze of the role :SC
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the task : RequestAssist of the role :MM
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addNewContract, contractId: SC-TC2
+2018-04-01 23:23:37,006 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,007 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,007 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.Composite  - Adding contract SC-TC2 to composite roadside
+2018-04-01 23:23:37,007 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Contract SC-TC2 was successfully added
+2018-04-01 23:23:37,007 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addwTerm, contractId: SC-TC2
+2018-04-01 23:23:37,007 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,008 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,008 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.Composite  - New term with id 'orderTow' has been added to the contract with the id 'SC-TC2'
+2018-04-01 23:23:37,008 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Term orderTow was successfully added
+2018-04-01 23:23:37,008 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addNewOperation
+2018-04-01 23:23:37,008 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,009 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,009 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Operation successfully added
+2018-04-01 23:23:37,009 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addwTerm, contractId: SC-TC2
+2018-04-01 23:23:37,009 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,009 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.Composite  - New term with id 'payTow' has been added to the contract with the id 'SC-TC2'
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Term payTow was successfully added
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addNewOperation
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Operation successfully added
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addNewContract, contractId: MM-TC2
+2018-04-01 23:23:37,010 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,011 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,011 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.Composite  - Adding contract MM-TC2 to composite roadside
+2018-04-01 23:23:37,011 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Contract MM-TC2 was successfully added
+2018-04-01 23:23:37,011 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addwTerm, contractId: MM-TC2
+2018-04-01 23:23:37,011 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,012 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,012 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.Composite  - New term with id 'sendGCLocation' has been added to the contract with the id 'MM-TC2'
+2018-04-01 23:23:37,012 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Term sendGCLocation was successfully added
+2018-04-01 23:23:37,012 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: addNewOperation
+2018-04-01 23:23:37,012 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Operation successfully added
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task updated from MM.RequestAssist behavior CaseHandling
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task updated from MM.Notify behavior CaseHandling
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - BehaviorUnit TowingByTomTow has been added
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Task ref  TC2.Tow added to TowingByTomTow
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Task ref  SC.PayTC added to TowingByTomTow
+2018-04-01 23:23:37,013 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: Update a process : HappyToursP1
+2018-04-01 23:23:37,014 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - ProcessDefinition HappyToursP1 hss been updated. property : CoS value : eAssistReqd * eReimburseReq * eTowReqd
+2018-04-01 23:23:37,014 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: Update a process : HappyToursP1
+2018-04-01 23:23:37,014 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - ProcessDefinition HappyToursP1 hss been updated. property : CoT value : eMMNotify * eReimbursed * eTC2Paid
+2018-04-01 23:23:37,014 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: add a behavior unit TowingByTomTow to the configuration design of the process : HappyToursP1
+2018-04-01 23:23:37,014 [ManamentPolicyExecutorWorker-2] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Configuration design for the process  HappyToursP1 hss been updated with behavior unit : TowingByTomTow
+2018-04-01 23:23:37,020 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add sync regulation rule @ TC2
+2018-04-01 23:23:37,020 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from TC2_SYN.drl
+2018-04-01 23:23:37,021 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,108 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=TC2_SYN.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,111 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync regulation rule @TC2has been added.
+2018-04-01 23:23:37,111 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add sync regulation rule @ SC
+2018-04-01 23:23:37,111 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC_SYN_Diff.drl
+2018-04-01 23:23:37,112 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,177 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC_SYN_Diff.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,182 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync regulation rule @SChas been added.
+2018-04-01 23:23:37,182 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update regulation rule : notify
+2018-04-01 23:23:37,182 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from MM_SYN_Diff.drl
+2018-04-01 23:23:37,183 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,249 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=MM_SYN_Diff.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,254 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync regulation rulenotifyhas been updated.
+2018-04-01 23:23:37,254 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add routing regulation rule @ MM
+2018-04-01 23:23:37,254 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from MM_Routing_Diff.drl
+2018-04-01 23:23:37,255 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,322 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=MM_Routing_Diff.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,326 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation rule @MMhas been added.
+2018-04-01 23:23:37,326 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add routing regulation rule @ TC2
+2018-04-01 23:23:37,326 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from TC2_Routing.drl
+2018-04-01 23:23:37,326 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,414 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=TC2_Routing.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,417 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation rule @TC2has been added.
+2018-04-01 23:23:37,417 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add routing regulation rule @ SC
+2018-04-01 23:23:37,417 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC_Routing_Diff.drl
+2018-04-01 23:23:37,418 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,484 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC_Routing_Diff.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,488 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation rule @SChas been added.
+2018-04-01 23:23:37,488 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update routing rule : analyzeResponse
+2018-04-01 23:23:37,488 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC_Routing_Diff_Replace.drl
+2018-04-01 23:23:37,489 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,602 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC_Routing_Diff_Replace.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,606 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation ruleanalyzeResponsehas been updated.
+2018-04-01 23:23:37,606 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add passthrough regulation rule @ SC-TC2
+2018-04-01 23:23:37,606 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC-TC2.drl
+2018-04-01 23:23:37,606 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,693 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC-TC2.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,697 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The passthrough regulation rule @SC-TC2has been added.
+2018-04-01 23:23:37,697 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add passthrough regulation rule @ MM-TC2
+2018-04-01 23:23:37,697 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from MM-TC2.drl
+2018-04-01 23:23:37,698 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,779 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=MM-TC2.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,783 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The passthrough regulation rule @MM-TC2has been added.
+2018-04-01 23:23:37,783 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update  global rule : terminateV1
+2018-04-01 23:23:37,783 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from roadside_global_diff.drl
+2018-04-01 23:23:37,784 [ManamentPolicyExecutorWorker-4] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:23:37,857 [ManamentPolicyExecutorWorker-4] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=roadside_global_diff.drl:road-rep:1.0.0]
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The global regulation ruleterminateV1has been updated.
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add regulation unit : TowingByTomTow
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation unit TowingByTomTowhas been added.
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add  sync rules to the regulation unit : TowingByTomTow
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync rules to the regulation unit TowingByTomTowhave been added.
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add routing rules to the regulation unit : TowingByTomTow
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing rules to the regulation unit TowingByTomTowhave been added.
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add passthrough rules to the regulation unit : TowingByTomTow
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The passthrough rules to the regulation unit TowingByTomTowhave been added.
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : add regulation units TowingByTomTow to the process : HappyToursP1
+2018-04-01 23:23:37,863 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.Composite  - Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as []
+2018-04-01 23:23:37,864 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.Composite  - Deploying regulation policy of the process HappyToursP1 of the VSN : HappyTours as [TowingByTomTow]
+2018-04-01 23:23:37,864 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation units to the process HappyToursP1have been added.
+2018-04-01 23:23:37,864 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove regulation unit : TowingByTomTow
+2018-04-01 23:23:37,864 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation unit TowingByTomTowhas been removed.
+2018-04-01 23:23:37,864 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update regulation units TowingByTomTow of the process : HappyToursP1 property : state value : active
+2018-04-01 23:23:37,864 [ManamentPolicyExecutorWorker-4] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation unit of the process HappyToursP1have been updated. property : state value : active
+2018-04-01 23:23:37,868 [ManamentPolicyExecutorWorker-5] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: updateRole, roleId: TC2
+2018-04-01 23:23:37,868 [ManamentPolicyExecutorWorker-5] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Property stateof RoleTC2 was successfully updated with value active
+2018-04-01 23:23:37,868 [ManamentPolicyExecutorWorker-5] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: update contract , contractId: SC-TC2
+2018-04-01 23:23:37,868 [ManamentPolicyExecutorWorker-5] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: update contract , contractId: SC-TC2
+2018-04-01 23:23:37,869 [ManamentPolicyExecutorWorker-5] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Update property state of BehaviorUnitTowingByTomTow is done
+2018-04-01 23:23:37,869 [ManamentPolicyExecutorWorker-5] INFO  MGT  - 1522617817869
+2018-04-01 23:24:36,398 [Timer-3] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.MgtPolicyDeployer  - [ROAD4WS] Deploying management policies from the file : /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms3mgtremove.xml
+2018-04-01 23:24:36,398 [Timer-3] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.MgtPolicyDeployer  - Loading VSNs conf from /home/indika/speevol/apache-tomcat-9.0.6_sdsn/webapps/axis2/WEB-INF/road_mgt/ms3mgtremove.xml
+2018-04-01 23:24:36,403 [Thread-15] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Got a management policy to admit 
+es3_org_remove.drl
+2018-04-01 23:24:36,407 [Thread-15] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from es3_org_remove.drl
+2018-04-01 23:24:36,408 [Thread-16] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Got a management policyto admit 
+es3_opr_remove.drl
+2018-04-01 23:24:36,408 [Thread-15] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:24:36,411 [Thread-16] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from es3_opr_remove.drl
+2018-04-01 23:24:36,412 [Thread-16] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:24:36,631 [Thread-16] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=es3_opr_remove.drl:road-rep:1.0.0]
+2018-04-01 23:24:36,646 [Thread-16] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Management policy applied in .235574529nanoseconds
+2018-04-01 23:24:36,678 [Thread-15] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=es3_org_remove.drl:road-rep:1.0.0]
+2018-04-01 23:24:36,678 [ManamentPolicyExecutorWorker-7] INFO  MGT  - 1522617876678
+2018-04-01 23:24:36,679 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update regulation units TowingByTomTow of the process : HappyToursP1 property : state value : passive
+2018-04-01 23:24:36,688 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation unit of the process HappyToursP1have been updated. property : state value : passive
+2018-04-01 23:24:36,697 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove regulation unit : TowingByTomTow
+2018-04-01 23:24:36,697 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation unit TowingByTomTowhas been removed.
+2018-04-01 23:24:36,697 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove regulation units TowingByTomTow from the process : HappyToursP1
+2018-04-01 23:24:36,697 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation units from the process HappyToursP1have been removed.
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove  sync rules from the regulation unit : TowingByTomTow
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync rules to the regulation unit TowingByTomTowhave been added.
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove routing rules from the regulation unit : TowingByTomTow
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing rules to the regulation unit TowingByTomTowhave been added.
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove passthrough rules from the regulation unit : TowingByTomTow
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The passthrough rules to the regulation unit TowingByTomTowhave been added.
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove regulation unit : TowingByTomTow
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The regulation unit TowingByTomTowhas been removed.
+2018-04-01 23:24:36,698 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove sync regulation rule : tow
+2018-04-01 23:24:36,700 [Thread-15] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Management policy applied in .293519723nanoseconds
+2018-04-01 23:24:36,720 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync regulation ruletowhas been removed.
+2018-04-01 23:24:36,720 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove sync regulation rule : payTC2
+2018-04-01 23:24:36,720 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync regulation rulepayTC2has been removed.
+2018-04-01 23:24:36,720 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update regulation rule : notify
+2018-04-01 23:24:36,720 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from MM_SYN.drl
+2018-04-01 23:24:36,721 [ManamentPolicyExecutorWorker-7] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:24:36,841 [ManamentPolicyExecutorWorker-7] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=MM_SYN.drl:road-rep:1.0.0]
+2018-04-01 23:24:36,847 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The sync regulation rulenotifyhas been updated.
+2018-04-01 23:24:36,847 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove routing regulation rule : requestAssistV3
+2018-04-01 23:24:36,847 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation rulerequestAssistV3has been removed.
+2018-04-01 23:24:36,847 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove routing regulation rule : towResponse
+2018-04-01 23:24:36,848 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation ruletowResponsehas been removed.
+2018-04-01 23:24:36,848 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove routing regulation rule : payTCResponseV2
+2018-04-01 23:24:36,848 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation rulepayTCResponseV2has been removed.
+2018-04-01 23:24:36,848 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update routing rule : analyzeResponse
+2018-04-01 23:24:36,848 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from SC_Routing.drl
+2018-04-01 23:24:36,848 [ManamentPolicyExecutorWorker-7] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:24:36,919 [ManamentPolicyExecutorWorker-7] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=SC_Routing.drl:road-rep:1.0.0]
+2018-04-01 23:24:36,923 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The routing regulation ruleanalyzeResponsehas been updated.
+2018-04-01 23:24:36,923 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove passthrough regulation rule : orderTow,payTow,payTowResponse
+2018-04-01 23:24:36,924 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The passthrough regulation ruleorderTow,payTow,payTowResponsehas been removed.
+2018-04-01 23:24:36,924 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : remove passthrough regulation rule : sendGCLocation,sendGCLocationResponse
+2018-04-01 23:24:36,924 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The passthrough regulation rulesendGCLocation,sendGCLocationResponsehas been removed.
+2018-04-01 23:24:36,924 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.composite.OperationalManagerRole  - Operational Manager : update  global rule : terminateV1
+2018-04-01 23:24:36,924 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.DroolsRules  - Reading KB from roadside_global.drl
+2018-04-01 23:24:36,925 [ManamentPolicyExecutorWorker-7] INFO  org.kie.scanner.embedder.MavenEmbedderUtils  - Not in OSGi: using plexus based maven parser
+2018-04-01 23:24:37,058 [ManamentPolicyExecutorWorker-7] INFO  org.drools.compiler.kie.builder.impl.KieRepositoryImpl  - KieModule was added: MemoryKieModule[releaseId=roadside_global.drl:road-rep:1.0.0]
+2018-04-01 23:24:37,064 [ManamentPolicyExecutorWorker-7] INFO  au.edu.swin.ict.road.common.OperationalMgtOpResult  - The global regulation ruleterminateV1has been updated.
+2018-04-01 23:24:37,067 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Update property state of BehaviorUnitTowingByTomTow is done
+2018-04-01 23:24:37,067 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: updateRole, roleId: TC2
+2018-04-01 23:24:37,067 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Property stateof RoleTC2 was successfully updated with value passive
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: update contract , contractId: SC-TC2
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: update contract , contractId: SC-TC2
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: remove a behavior unit TowingByTomTow from the configuration design of the process : HappyToursP1
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Configuration design for the process  HappyToursP1 hss been updated by removing the behavior unit : TowingByTomTow
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task updated from MM.RequestAssist behavior CaseHandling
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task updated from MM.Notify behavior CaseHandling
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: Update a process : HappyToursP1
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - ProcessDefinition HappyToursP1 hss been updated. property : CoS value : eAssistReqd * eReimburseReq
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: Update a process : HappyToursP1
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - ProcessDefinition HappyToursP1 hss been updated. property : CoT value : eMMNotify * eReimbursed
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task removed from TC2.Tow behavior TowingByTomTow
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task removed from SC.PayTC behavior TowingByTomTow
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Behavior removed TowingByTomTow
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: removeTerm, termId: orderTow
+2018-04-01 23:24:37,068 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,069 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,069 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - The term with the id 'orderTow' has been removed from the contract with the id 'SC-TC2'.
+2018-04-01 23:24:37,069 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Term orderTow was successfully removed
+2018-04-01 23:24:37,069 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: removeTerm, termId: payTow
+2018-04-01 23:24:37,070 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,070 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,070 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - The term with the id 'payTow' has been removed from the contract with the id 'SC-TC2'.
+2018-04-01 23:24:37,070 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Term payTow was successfully removed
+2018-04-01 23:24:37,070 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: removeContract, contractId: SC-TC2
+2018-04-01 23:24:37,070 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,071 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,071 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - Contract with the id 'SC-TC2' has been removed from the composite
+2018-04-01 23:24:37,071 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - Contract with the id 'SC-TC2' was not removed as it could not be found
+2018-04-01 23:24:37,071 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Contract with the id 'SC-TC2' has been removed from thcomposite
+2018-04-01 23:24:37,071 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: removeTerm, termId: sendGCLocation
+2018-04-01 23:24:37,071 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,072 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,072 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - The term with the id 'sendGCLocation' has been removed from the contract with the id 'MM-TC2'.
+2018-04-01 23:24:37,072 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Term sendGCLocation was successfully removed
+2018-04-01 23:24:37,072 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: removeContract, contractId: MM-TC2
+2018-04-01 23:24:37,072 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - Contract with the id 'MM-TC2' has been removed from the composite
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - Contract with the id 'MM-TC2' was not removed as it could not be found
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Contract with the id 'MM-TC2' has been removed from thcomposite
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task removed from Tow role TC2
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.OrganiserRole  - Organiser: remove, roleId: TC2
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.composite.Composite  - Role with id 'TC2' has been removed from this composite.
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.swin.ict.research.cs3.road.road4ws.core.deployer.ROADDeployer  - Service removed from Axis2
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - RoleTC2 has been sucessfully removed
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  -  Task removed from PayTC role SC
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the task : Analyze of the role :SC
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the task : Analyze of the role :SC
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  au.edu.swin.ict.road.common.OrganiserMgtOpResult  - Updated the task : RequestAssist of the role :MM
+2018-04-01 23:24:37,073 [ManamentPolicyExecutorWorker-1] INFO  MGT  - 1522617877073
