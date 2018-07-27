@@ -1,0 +1,40 @@
+global au.edu.swin.ict.road.common.IOrganiserRole orgMgt;
+global au.edu.swin.ict.road.common.IOperationalManagerRole oprMgt;
+global au.edu.swin.ict.road.common.DisabledRuleSet disabledSet;
+import au.edu.swin.ict.road.common.ManagementPolicyState;
+import au.edu.swin.ict.road.common.Classifier;
+import au.edu.swin.ict.road.common.RegulationUnitKeyManagementState;
+
+rule "bikerental_opr_stage1"
+  when
+    ( $mpsOpr : ManagementPolicyState (id =="bikerental_opr", state=="incipient") ) and ( $mpsOrg :
+    ManagementPolicyState(id =="bikerental_org", state=="stage1done") )
+  then
+    disabledSet.disable("bikerental_opr_stage1");
+    System.out.println("Operational management policy bikerental_opr_stage1 has been started.");
+
+    oprMgt.addSynchronizationRule("BR","BR_SYN.drl");
+    oprMgt.addSynchronizationRule("SC","SC_SYN_Diff.drl");
+
+    oprMgt.addRoutingRule("BR","BR_Routing.drl");
+    oprMgt.addRoutingRule("SC","SC_Routing_Diff.drl");
+    oprMgt.addRoutingRule("CM","CM_Routing_Diff.drl");
+
+    oprMgt.addPassthroughRule("CM-BR","CM-BR.drl");
+    oprMgt.addPassthroughRule("SC-BR","SC-BR.drl");
+    oprMgt.updateGlobalRule("terminateV1","replace" ,"campsass_global_diff.drl");
+
+    oprMgt.addRegulationUnit("cuRentingBike");
+    oprMgt.addSynchronizationRulesToRegulationUnit("cuRentingBike","rentBike:BR,sendRentInvoice:SC");
+    oprMgt.addRoutingRulesToRegulationUnit("cuRentingBike","rentBikeResponse:BR,requestAssistV9:CM,analyzeResponseV8:SC,sendRentInvoiceResponse:SC");
+    oprMgt.addPassthroughRulesToRegulationUnit("cuRentingBike",
+    "sendBikeRequirements:CM-BR,sendBikeReservation:CM-BR,rentBike:SC-BR,sendRentInvoice:SC-BR,sendRentInvoiceResponse:SC-BR");
+    oprMgt.addRegulationUnitsToProcessRegulationPolicy("HappyTours","HappyToursP1","cuRentingBike");
+    oprMgt.removeRegulationUnitsFromProcessRegulationPolicy("HappyTours","HappyToursP1","cuHiringTaxi");
+
+    oprMgt.updateRegulationUnit("cuRentingBike","state","active");
+    oprMgt.updateRegulationUnitOfProcessRegulationPolicy("HappyTours","HappyToursP1","cuRentingBike","state","active");
+
+    System.out.println("Operational management policy bikerental_opr_stage1 has been completed successfully.");
+    $mpsOpr.setState("quiescence");
+end
